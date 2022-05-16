@@ -1,11 +1,8 @@
-var hello = 'Hello';
-let world = 'World';
-const helloWorld = 'Hello World';
-
-const anotherFumction = () => {
+const helloWorld = () => {
+    const hello = 'Hello World';
     console.log(hello);
-    console.log(world);
-    console.log(helloWorld);
-}
+};
 
-anotherFumction();
+helloWorld();
+// mensaje de que no se puede acceder a la variable hello porque esta dentro de una funcion
+console.log(hello);
