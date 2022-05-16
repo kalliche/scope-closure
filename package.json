@@ -1,0 +1,19 @@
+{
+  "name": "scope-closure",
+  "version": "1.0.0",
+  "description": "scope global y limitado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalliche/scope-closure.git"
+  },
+  "author": "Carlos Reinaldo Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalliche/scope-closure/issues"
+  },
+  "homepage": "https://github.com/kalliche/scope-closure#readme"
+}
