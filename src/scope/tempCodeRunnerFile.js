@@ -1,9 +1,8 @@
 const anotherFunction = () => {
-    var x = 1;
-    var y = 2;
-    let x = 1;
-    //let y = 2;
-    console.log(x);
-    console.log(y);
-}
+    for (let i = 0; i < 10; i++) {
+        setTimeout(() => {
+            console.log(i);
+        }, 50)
+    }
+};
 anotherFunction();
